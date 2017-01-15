@@ -19,9 +19,9 @@
             "email": "jaime.perez@uninett.no"
         },
         {
-            "name": "Julian Raigosa",
-            "email": "jerr919@gmail.net"
-        }
+            "name": "Julian Raigosa",
+            "email": "jerr919@gmail.com"
+        }
     ],
     "autoload": {
         "psr-4": {
