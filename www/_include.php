@@ -1,5 +1,19 @@
 <?php
+$save_dir = getcwd();
 
+/**
+ * This makes our life easier when dealing with paths. Everything is relative
+ * to the application root now.
+ */
+chdir(realpath(dirname(__DIR__)."/../../../"));
+
+// Setup autoloading
+require 'init_autoloader.php';
+
+// Run the application!
+ZendMvcApplication::init(require 'config/application.config.php');
+
+chdir($save_dir);
 /**
  * Disable magic quotes if they are enabled.
  */

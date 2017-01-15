@@ -3,6 +3,9 @@
 /config/
 /metadata/
 /cert/
+cert
+config
+metadata
 
 !config/.gitkeep
 !metadata/.gitkeep
